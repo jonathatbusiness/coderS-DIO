@@ -11,7 +11,7 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: #272727;
     margin: 0;
     padding: 0;
     display: flex;
@@ -56,10 +56,10 @@ body{
     justify-content: space-between;
     align-items: center; 
     flex-direction: column;
-    background-color: #fff;
+    background-color: #272727;
     width: 100%;
     padding: 1.3rem 0;
-    border: 1px solid lightgray;
+    border: 1px solid #67CDFE;
 
 
 }
@@ -85,23 +85,23 @@ body{
 }
 
 .coders-login{
-    background-color: #0095f6;
-    color: #fff;
+    background-color: #67CDFE;
+    color: #272727;
     padding: 8px;
     border-radius: 4px;
 }
 
 .coders-logout{
-    color: #0095f6;
+    color: #67CDFE;
     margin-top: 1rem;
 }
 
 .not-account{
-    color: rgb(160, 160, 160);
+    color: #fff;
 }
 
 .link-blue{
-    color: #0095f6;
+    color: #67CDFE;
 }
 
 .get-app{
@@ -112,6 +112,10 @@ body{
     width: 100%;
     padding: 1.3rem 0;
 
+}
+
+.get-app-text{
+    color: #64F58D;
 }
 
 .download{
